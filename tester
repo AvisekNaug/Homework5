@@ -20,3 +20,10 @@
 #print 7*math.log(7/12,2)
 #print ts*math.log((ts+es)/sum,2)
 #result = -(tn*math.log((tn+en)/sum,2)+ ts*math.log((ts+es)/sum,2)+ th*math.log((th+eh)/sum,2))/sum
+
+{'AGE': {'Y': {'SPECTACLE': {'H': {'ASTIGMATISM': {'Y': {'TEAR': {'R': 'N', 'N': 'H'}}, 'N': {'TEAR': {'R': 'N', 'N': 'S'}}}}, 'M': {'ASTIGMATISM': {'Y': {'TEAR': {'R': 'N', 'N': 'H'}}, 'N': {'TEAR': {'R': 'N', 'N': 'S'}}}}}},
+ 'P': {'ASTIGMATISM': {'Y': {'TEAR': {'R': 'N', 'N': {'SPECTACLE': {'H': 'N', 'M': 'H'}}}}, 'N': {'TEAR': {'R': 'N', 'N': {'SPECTACLE': {'H': 'S', 'M': 'N'}}}}}},
+  'B': {'SPECTACLE': {'H': {'ASTIGMATISM': {'Y': 'N', 'N': {'TEAR': {'R': 'N', 'N': 'S'}}}}, 'M': {'ASTIGMATISM': {'Y': {'TEAR': {'R': 'N', 'N': 'H'}}, 'N': {'TEAR': {'R': 'N', 'N': 'S'}}}}}}}}
+
+{'SPECTACLE': {'H': {'AGE': {'Y': {'ASTIGMATISM': {'Y': 'H', 'N': {'TEAR': {'R': 'N', 'N': 'S'}}}}, 'P': {'ASTIGMATISM': {'Y': 'N', 'N': {'TEAR': {'R': 'N', 'N': 'S'}}}}, 'B': {'ASTIGMATISM': {'Y': 'N', 'N': {'TEAR': {'R': 'N', 'N': 'S'}}}}}},
+'M': {'ASTIGMATISM': {'Y': 'N', 'N': {'AGE': {'Y': {'TEAR': {'R': 'N', 'N': 'S'}}, 'P': 'N', 'B': {'TEAR': {'R': 'N', 'N': 'S'}}}}}}}}
